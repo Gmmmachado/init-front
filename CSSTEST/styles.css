@@ -1,0 +1,73 @@
+/*
+CSS RESET: você tira o css padrão do chrome em cima dos elementos, 
+onde vc remove os styles padrão do navegador, exemplo feito abaixo
+*/
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*
+html,body {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+header {
+    padding: 4rem;
+    background: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+# usar somente quando for ID
+. usar somente quando for class
+usar apenas o nome somente quando for tag
+
+<main>
+    <header>
+        <nav class="container">
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <section class="sobre">
+        <div class="container"></div>
+    </section>
+    <section class="skills">
+        <div class="container"></div>
+    </section>
+    <section class="contact">
+        <div class="container"></div>
+    </section>
+</main>
+
+main{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+*/

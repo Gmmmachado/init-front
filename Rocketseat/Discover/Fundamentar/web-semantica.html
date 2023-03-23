@@ -1,0 +1,78 @@
+<!--
+
+O que é a web semântica?
+
+É basicamente adicionar significado à uma linguagem, e no caso do HTML, para dar significado ao conteúdo.
+
+É importante praticarmos, pois no caso de necessitarmos alterar algo na nossa página, saberemos entender melhor como estão organizadas as coisas na estrutura semântica.
+
+Todo site é único, mas existem padrões ou convenções, que identificamos ambas intencional e não intencionalmente, e ao usar uma semântica consistente, ajudamos os user agents a identificar corretamente os elementos e apresentá-los aos visitantes da página.
+
+Também é importante para acessibilidade, pense em alguém que use um leitor de página, por exemplo. Com uma página desorganizada, é difícil fazer um bom uso de nossa página.
+
+Além disso, os motores de busca dão preferência à sites que têm sua semântica em dia, portanto um site bem estruturado é um site melhor encontrado na web.
+
+-->
+
+ <!--Exemplo de uma citação-->
+    <p>
+        Nós programadores, somos pagos para resolver problemas, não para memorizar soluções.
+        - Geovane Machado
+    </p>
+<!-- Neste caso, usar uma semântica melhor seria usar a tag correta para a citação-->
+    <blockquote>
+        Nós (programadores), somos pagos para resolver problemas, não para memorizar soluções.
+        <cite>- Geovane machado</cite>
+    </blockquote>
+<!--Sempre buscaremos regras e padrões para aprimorar a estrutura do documento-->
+
+<!--
+
+Seções comuns em documentos HTML
+    -cabeçalho <header>
+    -navegação <nav>
+    -conteúdo principal <main>
+    -barra lateral <aside>
+    -rodapé <footer>    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        logomarca
+        <nav>
+            <ul>
+                <li>item</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Receitas</h1>
+        <p>Essa é uma página de receitas</p>
+
+        <section>
+            <h2>Receita de torta de maçã</h2>
+            <p>Essa é uma receita de torta de maçã</p>
+        </section>
+        
+    </main>
+
+    <aside>
+        parte lateral
+    </aside>
+
+    <footer>
+        rodapé
+    </footer>
+
+    
+</body>
+</html>
